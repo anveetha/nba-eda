@@ -18,7 +18,7 @@ The repository contains analysis scripts and a Jupyter Notebook designed to:
 ## Project Structure
 
 ```text
-nda-eda-18a101ee2378fd5f47c6179f121cb689c8ec68fe/
+nba-eda/
 ├── eda.ipynb      # Interactive Jupyter notebook for step-by-step EDA and plots
 ├── eda.py         # Modular script containing EDA utility functions or routines
 └── nba_eda.py     # Main Python executable script for running the NBA analysis
@@ -56,7 +56,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 
 1. **Navigate to the project directory:**
 ```bash
-cd nda-eda-18a101ee2378fd5f47c6179f121cb689c8ec68fe
+cd nba-eda
 
 ```
 
@@ -81,8 +81,9 @@ python nba_eda.py
 
 ### Option 2: Running via Jupyter Notebook (Interactive)
 
-1. **Launch Jupyter Notebook from the project folder:**
+1. **Navigate to the project directory and launch Jupyter Notebook:**
 ```bash
+cd nba-eda
 jupyter notebook
 
 ```
